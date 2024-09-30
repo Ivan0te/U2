@@ -1,0 +1,24 @@
+site_name: IAW - 2ASIX
+
+theme:
+  name: material
+  logo: images/logo.png
+  favicon: images/logo.png
+  features:
+    - navigation.tabs
+    - navigation.instant.preview
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+- Implantación de Aplicaciones Web: index.md
+- Unidad 1:
+    - "Práctica 1: Git. Trabajando con ramas y uniones": Unidad_1/practica_1.md
+    - "Práctica 2: ¿Cómo colaborar en un proyecto de software libre? ¿Qué es un Pull Request (PR)?": Unidad_1/practica_2.md
+    - "Práctica 3 - Despliegue de una página web estática con Mkdocs y GitHub Pages": Unidad_1/practica_3.md
+
+- Unidad 2:
+    - "Práctica 1: Implantación de una web estática con Apache": Unidad_2/practica_1.md
