@@ -1,6 +1,6 @@
 # Implantación de una web estática con Apache
 
-!!! success "Objetivos de la práctica"
+# Objetivos de la práctica
 
     - Instalar y configurar un servidor web Apache2.
     - Crear distintos **Host Virtuales** en apache2 que nos permiten tener sitios web diferenciados.
