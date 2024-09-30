@@ -149,8 +149,8 @@ Y añadiremos las siguientes lineas:
 
 IAW2425.COM
 
-![iaw2425.com](../images/iaw2425.png)
+![iaw2425.com](./iaw2425.png)
 
 DOCU-IAW2425.COM
 
-![docu-iaw2425.com](../images/docu-iaw2425.png)
+![docu-iaw2425.com](./docu-iaw2425.png)
