@@ -53,17 +53,17 @@ Crear archivos configuración para hosts virtuales.
 
     ```
     <VirtualHost *:80>
-    ServerAdmin admin@iaw2425.com
-    ServerName iaw2425.com
-    ServerAlias www.iaw2425.com
-    DocumentRoot /var/www/iaw2425.com/site/
+     ServerAdmin admin@iaw2425.com
+     ServerName iaw2425.com
+     ServerAlias www.iaw2425.com
+     DocumentRoot /var/www/iaw2425.com/site/
 
-    <Directory /var/www/iaw2425.com/site>
-        AllowOverride All
-    </Directory>
+     <Directory /var/www/iaw2425.com/site>
+         AllowOverride All
+     </Directory>
 
      ErrorLog ${APACHE_LOG_DIR}/iaw2425_error.log
-    CustomLog ${APACHE_LOG_DIR}/iaw2425_access.log combined
+     CustomLog ${APACHE_LOG_DIR}/iaw2425_access.log combined
     </VirtualHost>
     ```
 
@@ -77,24 +77,24 @@ Crear archivos configuración para hosts virtuales.
 
     ```
     <VirtualHost *:80>
-    ServerAdmin admin@docu-iaw2425.com
-    ServerName docu-iaw2425.com
-    ServerAlias www.docu-iaw2425.com
-    Redirect / http://docu-iaw2425.com:8081/
+     ServerAdmin admin@docu-iaw2425.com
+     ServerName docu-iaw2425.com
+     ServerAlias www.docu-iaw2425.com
+     Redirect / http://docu-iaw2425.com:8081/
     </VirtualHost>
 
     <VirtualHost *:8081>
-    ServerAdmin admin@docu-iaw2425.com
-    ServerName docu-iaw2425.com
-    ServerAlias www.docu-iaw2425.com
-    DocumentRoot /var/www/docu-iaw2425.com/site/ 
+     ServerAdmin admin@docu-iaw2425.com
+     ServerName docu-iaw2425.com
+     ServerAlias www.docu-iaw2425.com
+     DocumentRoot /var/www/docu-iaw2425.com/site/ 
 
-    <Directory /var/www/docu-iaw2425.com/site>
-        AllowOverride All
-    </Directory>
+     <Directory /var/www/docu-iaw2425.com/site>
+         AllowOverride All
+     </Directory>
 
-    ErrorLog ${APACHE_LOG_DIR}/docu-iaw2425_error.log
-    CustomLog ${APACHE_LOG_DIR}/docu-iaw2425_access.log combined
+     ErrorLog ${APACHE_LOG_DIR}/docu-iaw2425_error.log
+     CustomLog ${APACHE_LOG_DIR}/docu-iaw2425_access.log combined
     </VirtualHost>
     ```
 
